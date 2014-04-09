@@ -34,6 +34,7 @@ function permutationSign(p) {
         visited[i] = 1
         for(var j=p[i]; j!==i; j=p[j]) {
           if(visited[j]) {
+            pool.freeUint8(visited)
             return 0
           }
           count += 1

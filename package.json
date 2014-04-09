@@ -1,6 +1,6 @@
 {
   "name": "permutation-parity",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Computes the parity of a permutation",
   "main": "permutation-sign.js",
   "directories": {
