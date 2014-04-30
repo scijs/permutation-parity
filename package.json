@@ -1,6 +1,6 @@
 {
   "name": "permutation-parity",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Computes the parity of a permutation",
   "main": "permutation-sign.js",
   "directories": {
@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "tape": "~2.12.3",
-    "permutation-rank": "^0.1.1"
+    "permutation-rank": "^1.0.0"
   },
   "scripts": {
     "test": "tape test/*.js"
